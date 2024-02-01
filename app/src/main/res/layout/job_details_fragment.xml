@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/edtjobDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Job Description"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/edtSalary"
+        android:hint="Enter Salary"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/edtPostDate"
+        android:hint="Post Date"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/jobBenefits"
+        android:hint="Benefits"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/jobExpectedJoiningDate"
+        android:hint="Expected Joining Date"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/jobEmploymentType"
+        android:hint="Employment Type"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/jobWorkMode"
+        android:hint="Work Mode"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/jobQualificationId"
+        android:hint="Enter Qualificaton Id"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/jobMinimumScore"
+        android:hint="Minimum Score"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/jobPassingYear"
+        android:hint="Enter Passing Year"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/jobSkillId"
+        android:hint="Enter Skills"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnApplyNow"
+        android:text="Apply Now" />
+
+
+
+</LinearLayout>
